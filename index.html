@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Theodoros Kyritsis - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .about, .skills, .projects, .ctf, .contact {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 4px;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a.linkedin {
+            color: white;
+            background-color: #0077b5;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        a.linkedin:hover {
+            background-color: #005580;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Theodoros Kyritsis</h1>
+        <p>Cybersecurity Enthusiast | CTF Player | Team Theo12xCH3G4N</p>
+        <a href="https://www.linkedin.com/in/theodoros-kyritsis-13a470301" class="linkedin" target="_blank">LinkedIn Profile</a>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                I'm Theodoros Kyritsis, a cybersecurity enthusiast with a passion for penetration testing and Capture The Flag (CTF) challenges. 
+                I'm constantly learning about new security vulnerabilities and improving my skills by playing CTFs with my team, 
+                <strong>Theo12xCH3G4N</strong>. 
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Cybersecurity & Ethical Hacking</li>
+                <li>CTF Competitions</li>
+                <li>Penetration Testing</li>
+                <li>Python / Bash Scripting</li>
+                <li>Web Security (OWASP Top 10)</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Project 1: Pentesting Automation Tool</h3>
+                <p>
+                    Developed an automated pentesting tool that simplifies the scanning and exploitation process for web applications. 
+                    The tool incorporates Nmap, Nikto, and other powerful frameworks.
+                </p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: Vulnerability Management Dashboard</h3>
+                <p>
+                    Built a comprehensive vulnerability management dashboard to track, analyze, and report on security weaknesses 
+                    within enterprise networks.
+                </p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+
+        <!-- CTF Section -->
+        <section class="ctf">
+            <h2>Capture The Flag (CTF) Competitions</h2>
+            <p>
+                As an active CTF player with Team <strong>Theo12xCH3G4N</strong>, I regularly participate in online and offline competitions 
+                to test and hone my skills. Below is a table of the recent CTFs I've participated in, along with points and ratings.
+            </p>
+
+            <table>
+                <tr>
+                    <th>CTF Name</th>
+                    <th>Points</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>CTF Competition 1</td>
+                    <td>500</td>
+                    <td>Gold</td>
+                </tr>
+                <tr>
+                    <td>CTF Competition 2</td>
+                    <td>700</td>
+                    <td>Platinum</td>
+                </tr>
+                <tr>
+                    <td>CTF Competition 3</td>
+                    <td>350</td>
+                    <td>Silver</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me on LinkedIn:</p>
+            <a href="https://www.linkedin.com/in/theodoros-kyritsis-13a470301" class="linkedin" target="_blank">LinkedIn Profile</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Theodoros Kyritsis. All rights reserved.</p>
+    </footer>
+</body>
+</html>
